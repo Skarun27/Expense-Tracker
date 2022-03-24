@@ -6,7 +6,7 @@ import ExpensesList from './ExpensesList';
 import ExpensesChart from "./ExpensesChart";
 
 const Expenses = (props) => {
-  const [selectedYear, setSelectedYear] = useState("2021");
+  const [selectedYear, setSelectedYear] = useState("2022");
 
   const selectYearHandler = (year) => {
     setSelectedYear(year);
